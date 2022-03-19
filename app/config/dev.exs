@@ -4,8 +4,7 @@ import Config
 config :my_app, MyApp.Repo,
   username: "postgres",
   password: "password",
-  hostname: "localhost",
-  # hostname: "db",
+  hostname: "db",
   database: "testdb",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
